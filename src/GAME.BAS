@@ -1,5 +1,5 @@
 DECLARE SUB catBase ()
-VER$ = "v0.02a"
+VER$ = "v0.0.2-alpha"
 
 SCREEN 2
 PRINT "The TBCB project "; VER$
@@ -24,5 +24,6 @@ SUB catBase ()
     
     ' User rank section
     PRINT "User Rank: "; UR$
+    DO
+    LOOP UNTIL INKEY$ = ""
 END SUB
-
